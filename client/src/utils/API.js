@@ -83,7 +83,6 @@ export const DELETE_BOOK = gql`
   }
 `;
 
-// Example function to use these queries/mutations
 export const fetchMe = async () => {
   try {
     const { data } = await client.query({ query: GET_ME });
