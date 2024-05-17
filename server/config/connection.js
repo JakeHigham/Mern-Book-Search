@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://jacobhcvn65:<password>@cluster0.r5i1wo9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/bookSearch', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
